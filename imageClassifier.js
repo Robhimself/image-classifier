@@ -7,7 +7,7 @@ let framePositions = [];
 
 function preload() {
   for (let i = 0; i < 4; i++) {
-    pictures[i] = loadImage(`../images/${i}.jpg`);
+    pictures[i] = loadImage(`images/${i}.jpg`);
   }
 }
 
